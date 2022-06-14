@@ -1,10 +1,12 @@
 
 #include <stdio.h>
+// Define simple structure
 struct abc1
 {
   int a;
   int b;
 } ;
+// Define structure with bit fields
 struct abc2
 {
   int a : 1;
