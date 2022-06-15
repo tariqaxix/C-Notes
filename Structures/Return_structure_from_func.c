@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 struct student 
 {
@@ -25,5 +26,7 @@ struct student getInformation()
   scanf("%d", &s1.age);
   return s1;
 }
+
+
 
 
