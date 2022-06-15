@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 #include <string.h>
 union Data {
@@ -12,5 +13,7 @@ int main()
   printf("Memory size occupied by data : %d\n", sizeof(data));
   return 0;
 }
+
+
 
 
