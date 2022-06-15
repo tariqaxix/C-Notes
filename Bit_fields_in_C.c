@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 // Define simple structure
 struct abc1
@@ -18,6 +19,9 @@ int main()
   printf("Memory size occupied by abc2 : %zu\n", sizeof(struct abc2));
   return 0;
 }
+
+
+
 
 
 
