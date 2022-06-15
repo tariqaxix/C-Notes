@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 struct Vehicle 
 {
@@ -13,5 +14,7 @@ int main()
   printf("Vehicle color:        %s", v1.color);
   return (0);
 }
+
+
 
 
