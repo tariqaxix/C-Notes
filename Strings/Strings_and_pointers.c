@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 int main(void)
 {
@@ -7,5 +8,6 @@ int main(void)
   printf("%c", *(name + 1));
   printf("%c", *(name + 7));
 }
+
 
 
