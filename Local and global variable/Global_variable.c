@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 // Global variable declaration
 int g;
