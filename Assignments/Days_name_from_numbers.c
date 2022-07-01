@@ -28,7 +28,10 @@ int main()
   case 6:
   printf("Saturday");
     break;
+  default:
+  printf("Invalid weekday number");
   }
+  printf("\n");
   return 0;
 }
 
