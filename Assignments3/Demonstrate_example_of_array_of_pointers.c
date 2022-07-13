@@ -14,6 +14,11 @@ int main()
   c = 300;
   // Print the values using pointer variables
   printf("Value of a is %d, b is %d and c is %d\n", *ptr[0], *ptr[1], *ptr[2]);
+  // Add 10 to all values using pointers
+  *ptr[0] += 10;
+  *ptr[1] += 10;
+  *ptr[2] += 10;
+  printf("After adding 10\n Value of a is %d, b is %d and c is %d\n", *ptr[0], *ptr[1], *ptr[2]);
   return 0;
 }
 
